@@ -1,0 +1,4 @@
+SCHEDULE 1.
+Sec. 6.
+DECLARATION OF LOYALTY TO BOUGAINVILLE, ITS PEOPLES AND CONSTITUTION.
+I, realizing fully the responsibilities to which I am committing myself and the consequences of not living up to this Declaration and those responsibilities, freely and willingly declare my loyalty to Bougainville and its People and to the Constitution of the Autonomous Region of Bougainville adopted by the Bougainville Constituent Assembly (made under the authority of the Bougainville Peace Agreement as implemented in Part XIV (Bougainville Government and Bougainville Referendum) of the National Constitution) as altered from time to time in accordance with its provisions, and I promise that I will uphold the Constitution of the Autonomous Region of Bougainville and the laws which apply in Bougainville.
