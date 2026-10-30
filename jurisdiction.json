@@ -1,0 +1,11 @@
+{
+  "path": "pg-nsb",
+  "code": "PG-NSB",
+  "name": "Autonomous Region of Bougainville",
+  "level": "autonomous region",
+  "parent": "pg",
+  "repo": "https://github.com/lexifina/papua-new-guinea-bougainville-law",
+  "build": "built: the Constitution of the Autonomous Region of Bougainville as adopted in 2004, from the Autonomous Bougainville Government",
+  "language": "en",
+  "sources": 1
+}

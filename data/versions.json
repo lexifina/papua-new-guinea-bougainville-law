@@ -1,0 +1,19 @@
+{
+ "country": "PG-NSB",
+ "acts": [
+  {
+   "slug": "constitution",
+   "short": "Bougainville Constitution",
+   "title": "Constitution of the Autonomous Region of Bougainville",
+   "url": "https://abg.gov.pg/uploads/documents/BOUGAINVILLE_CONSTITUTION_2004.pdf",
+   "versions": [
+    {
+     "from": "2004-11-12",
+     "units": 254,
+     "source_url": "https://abg.gov.pg/uploads/documents/BOUGAINVILLE_CONSTITUTION_2004.pdf",
+     "sha256": "dfe25fb0beed1e46064adec30427652a439bc7695f846636f1bcdcef30c15b6f"
+    }
+   ]
+  }
+ ]
+}
