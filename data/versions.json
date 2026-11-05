@@ -14,6 +14,34 @@
      "sha256": "dfe25fb0beed1e46064adec30427652a439bc7695f846636f1bcdcef30c15b6f"
     }
    ]
+  },
+  {
+   "slug": "elections-legislation-amendment-2014",
+   "short": "Elections Legislation (Amendment) Act 2014",
+   "title": "Elections Legislation (Amendment) Act 2014",
+   "url": "https://abg.gov.pg/uploads/acts/Act_2014-10-Elections_Legislation_%28Amendment%29.compressed.pdf",
+   "versions": [
+    {
+     "from": "2014-12-31",
+     "units": 1,
+     "source_url": "https://abg.gov.pg/uploads/acts/Act_2014-10-Elections_Legislation_%28Amendment%29.compressed.pdf",
+     "sha256": "774e4bf11f6bc7d899b1615d0076594524d98db1f95c18db2197feaa5415a18b"
+    }
+   ]
+  },
+  {
+   "slug": "principal-legal-adviser",
+   "short": "Principal Legal Adviser Act 2014",
+   "title": "Principal Legal Adviser Act 2014",
+   "url": "https://abg.gov.pg/uploads/acts/Act_2014-7-Principal_Legal_Adviser.compressed.pdf",
+   "versions": [
+    {
+     "from": "2014-08-08",
+     "units": 1,
+     "source_url": "https://abg.gov.pg/uploads/acts/Act_2014-7-Principal_Legal_Adviser.compressed.pdf",
+     "sha256": "685c240b51783a6e1727e2b8478bbda26e9b5557c19763370df7a1322c3960a6"
+    }
+   ]
   }
  ]
 }

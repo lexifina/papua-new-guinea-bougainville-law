@@ -7,6 +7,7 @@ This file is written by the build on 2026-11-05, the day the source data was ret
 | Source | Address | Retrieved | Licence |
 | --- | --- | --- | --- |
 | Autonomous Bougainville Government: Bougainville Constitution (PDF) | <https://abg.gov.pg/government/constitution> | 2026-10-30 | No licence statement on the site; reproduced as an official publication with attribution. |
+| Autonomous Bougainville Government: Acts passed in the Bougainville House of Representatives | <https://abg.gov.pg/acts-laws> | 2026-11-05 | Official legislative text, attributed to the Autonomous Bougainville Government; no separate reuse licence stated. |
 
 Every word of law in this repository comes from these sources. Lexifina reads them and records each act's dated versions, and the laws that made each change, in one corpus file. This repository is built from that file.
 
@@ -15,12 +16,14 @@ Every word of law in this repository comes from these sources. Lexifina reads th
 | Act | Title | Versions | Span |
 | --- | --- | ---: | --- |
 | `constitution` | Constitution of the Autonomous Region of Bougainville | 1 | 2004-11-12 to 2004-11-12 |
+| `elections-legislation-amendment-2014` | Elections Legislation (Amendment) Act 2014 | 1 | 2014-12-31 to 2014-12-31 |
+| `principal-legal-adviser` | Principal Legal Adviser Act 2014 | 1 | 2014-08-08 to 2014-08-08 |
 
-The build made 1 commits:
+The build made 3 commits:
 
 | Commits | Kind |
 | ---: | --- |
-| 1 | first version of an act |
+| 3 | first version of an act |
 | 0 | one law on its in-force day |
 | 0 | changes no amendment note explains, credited to the publisher |
 
@@ -28,7 +31,7 @@ Other counts:
 - 0 commits on the branch `future`: laws not yet in force on 2026-11-05.
 - 0 commits dated 1 January 1970: in force before 1970, with the real day in their `In-force` trailer.
 - 1 laws in the record.
-- 2 tags.
+- 4 tags.
 
 ## Dates
 
@@ -40,15 +43,15 @@ When a law gives no date of its own, the default rule applies: The Constitution 
 
 `tools/build.py` turns the corpus into this history in one pass: one commit per law, on the day it took effect. The same corpus always gives the same commit hashes. `tools/check_repo.py` reads every version back from git and compares it with the corpus. `tools/on.py` shows the law as it stood on any date. The corpus format is described in `tools/SCHEMA.md`.
 
-- Corpus: sha256 `d41038c44b124d4ddbffe7c290291977630364ee48ff1865c53ac6f02b7a067b` (537572 bytes).
+- Corpus: sha256 `0cb72785bdac8f0a7350436573a71ff1faf777cfe6c85e377b4d0e9f2c537b9b` (550956 bytes).
 - Builder blob hashes (`git hash-object`): `build.py` `35388bee5aa05369f7da68f5a8fa015ea8d442b8`, `check.py` `5d719354ea4c62d240c93d2cae446307d81d9e81`, `on.py` `aff48cf1b68d50c7ba8f399ca32261871c301824`.
 - Python 3.14.4; git version 2.53.0.
 
 ## Checks
 
-1 versions of 1 acts read back from git on the day each took effect and on the day before: 0 mismatches. Trailers: 0 commits whose trailers git cannot parse. Health: 0 merge commits on main, 0 commit dates that go backwards, 0 commits dated after the build.
+Not yet run for this build.
 
-No second build of this corpus has been compared yet.
+A second build from the same corpus into an empty folder gave identical hashes for all 3 history commits and 4 tags (history tip `b6ebd5d70d6092fea3d2b83f86c6462e8943b6f0`).
 
 ## Decisions made by hand
 
@@ -60,6 +63,10 @@ No second build of this corpus has been compared yet.
 - The table of electoral offences in Schedule 10, Section 142 is read with pdftotext -table and written one row per line, "offence | punishment" (the " | " is added; the words are as printed).
 - Two places where the layout reading order differs from the printed sense are put right: the paragraph number 5.7.1, printed level with the second line of the heading of Schedule 5.7, goes before its paragraph; and "Sec. 187", printed beside the heading "SCHEDULE 6.", goes after it, as in the other Schedules.
 - Checked: the letters and digits of every unit and heading, in order, equal those of the PDF read a second time with pypdf (pages 3-16, running titles and page numbers left out).
+- These are the available texts of two instruments; no amendment to either instrument is identified in the official listing. Principal Acts amended by them are not reconstructed here.
+- The version dates are the source Speaker certificate dates under Section 66(3) of the Bougainville Constitution: 8 August 2014 and 31 December 2014. No retrieval date is used as an in-force date.
+- Each instrument is a single-file act. Every PDF page is retained, including arrangement, running titles, certificates and pagination. Only whitespace and quote typography are normalized.
+- The official PDFs contain no raster images: source normative images 0, referenced 0, omitted 0 for each instrument.
 
 ## What AI did and did not do
 
@@ -71,3 +78,4 @@ The commit messages are written by `build.py` from the source data.
 
 Model use at data-build time:
 - A model (Claude) wrote the parse code and chose the layout; it wrote no law text. Every word of law comes from the Autonomous Bougainville Government's PDF.
+- A model wrote extraction and verification code and interpreted source date metadata; it wrote no law text and made no OCR corrections.

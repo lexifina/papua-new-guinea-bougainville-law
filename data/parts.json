@@ -5,6 +5,13 @@
     "constitution"
    ],
    "sha256": "37ef976eeefe33d98cc58ebc8ef0811e5732d58917f3c81142b060a59857a793"
+  },
+  "20-q154-current-instruments.json": {
+   "acts": [
+    "elections-legislation-amendment-2014",
+    "principal-legal-adviser"
+   ],
+   "sha256": "a9b13152663877bd5e452eb53f61f7d31db578c5d79ea622db8ff4c1765f81af"
   }
  },
  "schema": 1
