@@ -5,7 +5,7 @@
   "level": "autonomous region",
   "parent": "pg",
   "repo": "https://github.com/lexifina/papua-new-guinea-bougainville-law",
-  "build": "built: the Constitution of the Autonomous Region of Bougainville as adopted in 2004, from the Autonomous Bougainville Government",
+  "build": "partial: adopted 2004 Constitution and two available 2014 instruments",
   "language": "en",
-  "sources": 1
+  "sources": 2
 }
