@@ -1,5 +1,7 @@
 # Autonomous Region of Bougainville: law in git
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the law of Autonomous Region of Bougainville, Papua New Guinea, which global-law reads at `papua-new-guinea/bougainville/acts/`.
+
 This repository records three instruments published by the Autonomous Bougainville Government, in English. The Constitution remains the text adopted in 2004. The two additional 2014 instruments are the available texts of those instruments; the principal Acts they amend have not been consolidated here.
 
 | Folder | Act | Text files | Version |
